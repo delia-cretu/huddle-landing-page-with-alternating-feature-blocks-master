@@ -180,21 +180,21 @@ main p {
   position: relative;
 }
 
+.main-section-image img {
+  max-width: 85%;
+  max-height: 85%;
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 50%;
+}
+
 .main-section1 img,
 .main-section3 img {
-  width: 85%;
-  position: absolute;
-  top: 50%;
   right: 0;
-  transform: translate(0%, -50%);
 }
 
 .main-section2 img {
-  width: 85%;
-  position: absolute;
-  top: 50%;
   left: 0;
-  transform: translate(0%, -50%);
 }
 
 .main-section4 {
