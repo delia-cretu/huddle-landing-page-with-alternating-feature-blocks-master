@@ -225,32 +225,36 @@ main p {
   .main-section3 {
     flex-direction: column;
     width: 90%;
-    height: 725px;
+    height: 750px;
     align-items: center;
     justify-content: center;
-    padding: 75px 20px 0 20px;
+    /* padding: 75px 20px 0 20px; */
     margin-bottom: 50px;
   }
   .main-section-text {
+    border: 2px solid red;
     height: 50%;
     width: 100%;
     text-align: center;
     padding: 0;
-    margin: 10%;
+    margin: 0;
     padding-top: 75px;
   }
   .main-section-image {
+    border: 2px solid red;
     height: 50%;
     width: 100%;
     padding: 0;
     margin: 0;
   }
   .main-section-image img {
-    height: 100%;
+    max-height: 95%;
+    max-width: 95%;
     width: auto;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+    border: 2px solid red;
   }
 
   .main-section4 {
