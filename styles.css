@@ -91,11 +91,12 @@ header {
 
   /* HEADER - Nav section */
   header img {
-    width: 175px;
+    width: 150px;
   }
   .button-try-it {
-    height: 35px;
-    width: 135px;
+    height: 30px;
+    width: 100px;
+    font-size: 0.8rem;
   }
 
   /* HEADER - Text and Image sections */
